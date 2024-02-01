@@ -1,0 +1,135 @@
+body{
+   background-color: rgb(34, 37, 37);
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0/75)),url('images/logo.jpeg');
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 60px;
+    height:60px;
+    cursor: pointer;
+}
+#navbar ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+#navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+#navbar ul li:hover::after{
+    width: 100%;
+}
+hr{
+    margin-top: 50px;
+    color: rgb(9, 19, 19);
+    background-color: rgb(9, 19, 19);
+    height:2px;
+    width: 100%;
+    border-width:0;
+    opacity: 0.3;
+}
+h1{
+    line-height: 15px;
+}
+p{
+    color: white;
+    line-height: 30px;
+}
+a{
+    color: rgb(200, 200, 245);
+    
+}
+#info{
+    display: flex;
+    margin-top: 30px;
+}
+#title
+{
+ margin-top: 50px;
+ margin-left: 100px;
+}
+#title1{
+    color: white;
+    font-size:xxx-large;
+    font-weight: bold;
+}
+#title2{
+    color: rgba(235, 151, 25, 0.842);
+    font-size:xxx-large;
+    font-weight: bold;
+}
+#btn-joinUs{
+    background-color:rgba(235, 151, 25, 0.842) ;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#btn-joinUs:hover{
+    color: black;
+    background-color:rgb(228, 187, 127) ;
+}
+#login{
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color:rgb(9, 19, 19);
+    height: 300px;
+    width: 300px;
+    padding-top: 40px;
+    padding-left: 80px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+#btn-login{
+background-color: rgb(255, 251, 243);
+border: none;
+width: 200px;
+height: 30px;
+border-radius: 8px;
+text-transform: uppercase;
+cursor: pointer;
+}
+#btn-login:hover{
+    background-color: rgb(247, 213, 149);
+}
+#btn-login1{
+    background-color: rgb(224, 153, 11);
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+    #btn-login1:hover{
+        background-color: rgb(247, 213, 149);
+    }
+input{
+    background-color: black;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 30px;
+    
+}
